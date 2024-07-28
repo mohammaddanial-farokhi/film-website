@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dropdown element</title>
+<style>
+
+  * {
+     padding: 0;
+margin: 0;
+font-family: monospace;
+}
+ul {
+    list-style: none;
+    background: black;
+    
+}
+ul li {
+    display: inline-block;
+    position: relative;
+}
+ul li a {
+    display: block;
+    padding: 10px 25px;
+    color: #e5e0e0;
+    text-decoration:none ;
+    text-align: center;
+    font-size: 20px;
+}
+ul li ul.foreign  li {
+    display: block;
+}
+ul li ul.foreign {
+    width: 100%;
+    background: #000000;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover {
+    background: #000000;
+}
+ul li:hover ul.foreign {
+    display: block;
+}
+    ul li ul.dropdown li {
+        display: block;
+    }
+    ul li ul.dropdown {
+        width: 100%;
+        background: #000000;
+        position: absolute;
+        z-index: 999;
+        display: none;
+    }
+    ul li a:hover {
+        background: #000000;
+    }
+    ul li:hover ul.dropdown {
+        display: block;
+    }
+    ul li ul.other li {
+        display: block;
+    }
+    ul li ul.other {
+        width: 100%;
+        background: #000000;
+        position: absolute;
+        z-index: 999;
+        display: none;
+       
+    }
+    ul li a:hover {
+        
+    }
+    ul li:hover ul.other {
+        display: block;}
+</style>
+</head>
+<body>
+ <ul>
+    <li>
+        <a href="#">foreign film^</a>
+        <ul class="foreign ">
+            <li><a href="#">action</a></li>
+            <li><a href="#">romantic</a></li>
+            <li><a href="#">drama</a></li>
+            <li><a href="#">indian</a></li>
+            <li><a href="#">war</a></li>
+            <li><a href="#">comedy</a></li>
+            <li><a href="#">exciting</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Iranian movie</a></li>
+    <li>
+        <a href="#">serial^</a>
+        <ul class="dropdown">
+            <li><a href="#">Foreign series</a></li>
+            <li><a href="#">Turkish serial</a></li>
+            <li><a href="#">Korean TV Series</a></li>
+        </ul>
+       </li>
+       <li><a href="#">Animation</a></li>
+       <li><a href="#">Dubbed in Farsi</a></li>
+       <li><a href="#">anime</a></li>
+       <li>
+        <a href="#">other^</a>
+        <ul class="other">
+            <li><a href="#">collection</a></li>
+            <li><a href="#">Oscar2023</a></li>
+            <li><a href="#">Coming Soon</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Contact us</a></li>
+ </ul>
+
+</body>
+</html>
