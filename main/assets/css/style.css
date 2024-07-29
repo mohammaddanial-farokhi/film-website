@@ -1,3 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+ul {
+    list-style: none;
+    background: black;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+}
+ul li a {
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+}
+ul li ul.film  {
+    display: block;
+}
+ul li ul.film {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    background: black;
+}
+ul li:hover ul.film  {
+    display: block;
+}
+
+
 *{
     padding: 0;
     margin: 0;
