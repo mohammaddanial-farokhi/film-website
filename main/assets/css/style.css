@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .wrapper{
     background-color: #1C1C22;
 }
@@ -80,4 +84,28 @@
     border-top: 1px solid #959BA0;
     display: flex;
     justify-content: center;
+}
+header{
+    background-image: url('https://digimoviez.com/wp-content/uploads/2022/07/AaV1YIdWKnjAIAOe8UUKBFm327v-e1657627832652.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.aonvan{
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+.aonvan h2{
+    display: inline;
+}
+.at{
+    display: flex;
+     flex-wrap: wrap;
+    margin-top: 10px;
+}
+.post-single-rate i {
+    width: 31px;
+    text-align: center;
+    height: 32px;
 }
