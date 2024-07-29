@@ -109,3 +109,37 @@ header{
     text-align: center;
     height: 32px;
 }
+.movie-poster-and-video {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.movie-poster {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.movie-trailer {
+    width: 100%;
+    max-width: 300px;
+}
+
+.movie-info {
+    flex: 1;
+}
+.story {
+    flex: 1;
+}
+
+.story h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.story p {
+    font-size: 14px;
+    line-height: 1.6;
+}
