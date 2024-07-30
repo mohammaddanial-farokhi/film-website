@@ -3,16 +3,16 @@
     margin: 0;
     font-family: monospace;
 }
-ul {
+.navbar {
     list-style: none;
     background: black;
 }
-ul .l {
+ .l {
 
     display: inline-block;
     position: relative;
 }
-ul .l .b {
+  .b {
     
     display: block;
     padding: 20px 20px;
@@ -21,21 +21,25 @@ ul .l .b {
     text-align: center;
     font-size: 12px;
 }
-ul .l ul.film  {
-    display: block;
-    
+.nav-link-serial {
+padding: 20px 55px;
 }
-ul .l ul.film {
+.nav-link-other {
+    padding: 20px 80px;
+}
+    
+
+.film {
     width: 100%;
     background: rgb(0, 0, 0);
     position: absolute;
     z-index: 999;
     display: none;
 }
-ul .l .b:hover{
+.b:hover{
     background: black;
 }
-ul .l:hover ul.film  {
+ .l:hover ul.film  {
     display: block;
 }
 
