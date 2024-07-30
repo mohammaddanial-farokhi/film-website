@@ -1,0 +1,145 @@
+/* navbar */
+.navbar {
+    margin-bottom: 0;
+    list-style: none;
+    background: black;
+}
+ .l {
+
+    display: inline-block;
+    position: relative;
+}
+  .b {
+    
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+}
+.nav-link-serial {
+padding: 20px 55px;
+}
+.nav-link-other {
+    padding: 20px 80px;
+}
+    
+
+.film {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+.b:hover{
+    background: black;
+}
+ .l:hover ul.film  {
+    display: block;
+}
+/* end-navbar */
+/* main */
+main{
+    background-color: #2e2e39 ;
+}
+.photo{
+    width: 400px;
+    border-radius: 50%;
+}
+.fa-imdb , .fa-calendar-days{
+    font-size: 40px;
+}
+.time-span{
+    font-size: 13px;
+}
+.custom-row1{
+    padding-bottom: 20px;
+}
+/* end-main */
+/* footer */
+.wrapper{
+    background-color: #1C1C22;
+}
+.custom-insta{
+    vertical-align: -5px;
+    padding-top: 4%;
+    margin-right: 10px;
+    color: white;
+}
+.insta-container{
+    border-radius: 5px;
+    background: linear-gradient(to right, #FA707A, #FA9870);
+    height: 50px;
+}
+.tel-container{
+    border-radius: 5px;
+    background: linear-gradient(to right, #64BDE9, #91D3F4);
+    height: 50px;
+}
+.custom-div{
+    background-color: #2e2e39;
+}
+.custom-film{
+    background-color: #323E31;
+    color: #89D64F;
+    font-size: 30px;
+    border-radius: 5px;
+    
+}
+.custom-h3 , .custom-arrow
+{
+    color:#959BA0 ;
+}
+.custom-div2{
+    margin-top: 25px;
+}
+.custom-sound{
+    background-color: #2D3348;
+    color: #6898F8;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.custom-gear{
+    background-color: #463C25;
+    color: #FFC107;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.custom-btn{
+    height: 30px;
+    margin-left: 96px;
+    border-radius: 10px;
+    color: #86D04E;
+    background-color: #2C3829;
+}
+.custom-gear1 , .custom-h5{
+    color: #89D64F;
+}
+.custom-gear1{
+    margin-top: 6px;
+}
+.custom-ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.custom-ul li{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.custom-ul li a{
+    color: #959BA0;
+    text-decoration: none;
+}
+.custom-p{
+    font-size: 12px;
+    color: #959BA0;
+}
+.custom-div3 {
+    border-top: 1px solid #959BA0;
+    display: flex;
+    justify-content: center;
+}
+/* end-footer */
