@@ -195,14 +195,14 @@ header{
 .uptvs-big-play-btn {
         position: absolute;
         top: 0px;
-        left: 0;
+        right: 0;
         height: 350px;
         margin-bottom: 0;
     }
 
 .uptvs-big-play-btn {
     width: 100%;
-    float: left;
+    float: right;
     height: 300px;
     position: relative;
     z-index: 9;
@@ -224,7 +224,7 @@ body {
     font-size: 13px;
     font-weight: 300;
     line-height: 1.9;
-    text-align: left;
+    text-align: right;
     background-color: #101014;
 }
 body {
