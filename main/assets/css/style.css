@@ -185,7 +185,6 @@ header{
 
 
 
-
 .uptvs-big-play-btn {
         position: absolute;
         top: 0px;
@@ -235,5 +234,6 @@ html {
     -ms-overflow-style: scrollbar;
 }
 *{
+
     box-sizing: border-box;
 }
