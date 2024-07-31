@@ -182,3 +182,59 @@ header{
     font-size: 14px;
     line-height: 1.6;
 }
+
+
+element.style {
+}
+
+    .uptvs-big-play-btn {
+        position: absolute;
+        top: 0px;
+        right: 0;
+        height: 350px;
+        margin-bottom: 0;
+    }
+
+.uptvs-big-play-btn {
+    width: 100%;
+    float: right;
+    height: 300px;
+    position: relative;
+    z-index: 9;
+    margin-bottom: 30px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.post-header {
+    background-size: 100% auto;
+    background: #111;
+    overflow: hidden;
+    color: #cbcfd3;
+}
+body {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.9;
+    text-align: right;
+    background-color: #101014;
+}
+body {
+    font-family: IRANSans, 'IRANSans', Tahoma;
+    font-size: 13px;
+    line-height: 1.9;
+    color: #bbc1c6;
+    background-color: #fff;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+}
+*{
+    box-sizing: border-box;
+}
