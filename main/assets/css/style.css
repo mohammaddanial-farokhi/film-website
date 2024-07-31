@@ -244,3 +244,13 @@ html {
 
     box-sizing: border-box;
 }
+
+.cmnt{
+    border-radius: 5px;
+}
+
+.btn{
+    height: 30px;
+    margin-left: 96px;
+    border-radius: 10px;
+}
